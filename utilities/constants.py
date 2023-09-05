@@ -1,0 +1,9 @@
+TEST_SITE_URL = 'https://demo.guru99.com/payment-gateway/index.php'
+MAX_WAIT_INTERVAL = 10
+QUANTITY = list(range(1,10,1))
+VALID_CARD_NUMBER = "1234123412341234"
+INVALID_CARD_NUMBER = "123"
+EXP_MONTH = list(range(0,13,1))
+EXP_YEAR = list(range(0,13,1))
+CVV1 = 123
+PAYMENT_PROCESS_URL = 'https://demo.guru99.com/payment-gateway/process_purchasetoy.php'
