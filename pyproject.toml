@@ -10,6 +10,8 @@ packages = [{include = "testpaymentgateway_new"}]
 python = "^3.11"
 pytest = "^7.4.0"
 selenium = "^4.11.2"
+junit-xml = "^1.9"
+pytest-html = "^4.0.0"
 
 
 [build-system]
